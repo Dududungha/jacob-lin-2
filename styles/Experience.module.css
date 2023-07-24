@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    margin: 5vh 0;
+}
+
+.text {
+    margin-left: 0.5rem;
+}
+
+.title {
+    margin: 0;
+}
+
+.role {
+    margin: 0;
+    font-weight: bold;
+    color: gray;
+}

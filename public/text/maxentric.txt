@@ -1,0 +1,5 @@
+MaXentric was my first step into software engineering.
+
+It was exciting. I had to learn new technologies, networking and embedded devices, and I had absolutely no idea about them! I honestly amazed myself with how I was able to pick it up and even apply it to build a simulator to test link layer networking protocols for the new 5G millimeter wave technology. I was proud to have landed this internship and to have contributed and made an impact. 
+
+However, I couldn't see myself continuing to work with networks and embedded devices, and went looking for other opportunities.
