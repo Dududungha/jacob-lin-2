@@ -4,7 +4,7 @@
 }
 
 .introContainer {
-    height: 100vh;
+    margin: 25vh 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,6 +32,7 @@
 
 .experiencesContainer {
     max-width: 60vw;
+    margin: 20vh 0;
     align-self: center;
     display: flex;
     flex-direction: column;
@@ -39,12 +40,17 @@
 }
 
 .projectsContainer {
-    max-width: 75vw;
     align-self: center;
+    margin: 25vh 0;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
-    justify-items: center;
     column-gap: 2.5vw;
     row-gap: 2.5vw;
+}
+
+.connectContainer {
+    margin: 25vh 0;
+    display: flex;
+    justify-content: center;
 }

@@ -37,6 +37,13 @@ export default function Home() {
           <Project />
           <Project />
           <Project />
+          <Project />
+          <Project />
+      </div>
+      <div className={styles.connectContainer}>
+        <Image src="/images/cat.jpg" height={200} width={200} alt="Gmail"/>
+        <Image src="/images/cat.jpg" height={200} width={200} alt="LinkedIn"/>
+        <Image src="/images/cat.jpg" height={200} width={200} alt="GitHub"/>
       </div>
     </main>
   )
