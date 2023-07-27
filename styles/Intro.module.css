@@ -1,0 +1,35 @@
+.introContainer {
+    margin: 25vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introRouting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 0.5rem;
+}
+
+.introHi {
+    margin: 0;
+}
+
+.introName {
+    margin: 0 0 1.5rem 0;
+}
+
+.introRoute {
+    margin: 0.1rem 0;
+}
+
+.introRoute a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.introRoute a:hover {
+    text-decoration: underline;
+}
