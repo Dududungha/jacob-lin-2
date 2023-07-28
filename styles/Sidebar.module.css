@@ -1,0 +1,55 @@
+.sidebar {
+    background: black;
+    color: white;
+    position: fixed;
+    height: 100vh;
+    width: 15vw;
+    left: -12vw;
+    transition: left 0.5s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar:hover {
+    left: 0;
+}
+
+.sidebarRoutes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sidebarRoute {
+    margin: 0.5rem;
+}
+
+.sidebarRoute a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.sidebarRoute a:hover {
+    text-decoration: underline;
+}
+
+.sidebarArrow {
+    margin-right: 0.5rem;
+    transform: rotate(0);
+    transition: transform 0.6s ease-in-out;
+}
+
+.sidebar:hover > .sidebarArrow {
+    transform: rotate(-180deg);
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(180deg);
+    }
+}

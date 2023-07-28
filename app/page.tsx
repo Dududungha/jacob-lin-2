@@ -1,14 +1,15 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Sidebar from '../components/sidebar';
 import Intro from '../components/intro';
 import Experience from '../components/experience';
 import Project from '../components/project';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
-
   return (
     <main className={styles.container}>
+      <Sidebar />
       <Intro />
       <div id="journey" className={styles.experiencesContainer}>
         <Experience title="MaXentric Technologies" role="Software Engineer Intern" imageSrc="/images/cat.jpg">
