@@ -32,9 +32,9 @@ export default function Home() {
           <Project />
       </div>
       <div id="connect" className={styles.connectContainer}>
-        <Image src="/images/cat.jpg" height={200} width={200} alt="Gmail"/>
-        <Image src="/images/cat.jpg" height={200} width={200} alt="LinkedIn"/>
-        <Image src="/images/cat.jpg" height={200} width={200} alt="GitHub"/>
+        <a href="mailto:jacobchengdilin@gmail.com"><Image src="/images/gmail.jpg" height={200} width={200} alt="Gmail"/></a>
+        <a href="https://www.linkedin.com/in/jacobcdlin" target="_blank"><Image src="/images/linkedin.jpg" height={200} width={200} alt="LinkedIn"/></a>
+        <a href="https://www.github.com/Dududungha" target="_blank"><Image src="/images/github.jpg" height={200} width={200} alt="GitHub" /></a>
       </div>
     </main>
   )
