@@ -6,9 +6,9 @@ export default function Sidebar() {
     return (
         <div className={styles.sidebar}>
             <div className={styles.sidebarRoutes}>
-                <h2 className={styles.sidebarRoute}><a href="/#journey">Journey</a></h2>
-                <h2 className={styles.sidebarRoute}><a href="/#projects">Projects</a></h2>
-                <h2 className={styles.sidebarRoute}><a href="/#connect">Connect</a></h2>
+                <p className={styles.sidebarRoute}><a href="/#journey">Journey</a></p>
+                <p className={styles.sidebarRoute}><a href="/#projects">Projects</a></p>
+                <p className={styles.sidebarRoute}><a href="/#connect">Connect</a></p>
             </div>
             <Image className={styles.sidebarArrow} src={arrow} alt=''/>
         </div>

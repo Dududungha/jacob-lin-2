@@ -29,3 +29,14 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.connectImg {
+    height: 200px;
+    width: 200px;
+    transition: height 0.25s, width 0.25s;
+}
+
+.connectImg:hover {
+    height: 225px;
+    width: 225px;
+}
