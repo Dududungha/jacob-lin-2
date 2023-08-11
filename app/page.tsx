@@ -24,12 +24,10 @@ export default function Home() {
         </Experience>
       </div>
       <div id="projects" className={styles.projectsContainer}>
-          <Project />
-          <Project />
-          <Project />
-          <Project />
-          <Project />
-          <Project />
+          <Project imageSrc='/images/mangroves.jpg' link='https://github.com/UCSD-E4E/MMICT-frontend'/>
+          <Project imageSrc='/images/uwu-face.png' link='https://uwu-wegistew.netlify.app/'/>
+          <Project imageSrc='/images/ignis.jpg' link='https://devpost.com/software/ignis-1kn83b'/>
+          <Project imageSrc='/images/sandiegozoo.jpg'/>
       </div>
       <div id="connect" className={styles.connectContainer}>
         <a href="mailto:jacobchengdilin@gmail.com"><Image src="/images/gmail.jpg" height={200} width={200} alt="Gmail"/></a>

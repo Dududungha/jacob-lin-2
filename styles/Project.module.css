@@ -1,7 +1,11 @@
-.container {
-    height: 200px;
-    width: 200px;
-    background-color: gray;
+.projectContainer {
+    position: relative;
+    height: 33vh;
+    width: 25vw;
     grid-column: auto;
     grid-row: auto;
+}
+
+.projectContainer img {
+    object-fit: contain;
 }
