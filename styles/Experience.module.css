@@ -1,18 +1,22 @@
-.container {
+.experienceContainer {
     display: flex;
     margin: 5vh 0;
 }
 
-.text {
+.experienceText {
     margin-left: 0.5rem;
 }
 
-.title {
+.experienceTitle {
     margin: 0;
 }
 
-.role {
+.experienceRole {
     margin: 0;
     font-weight: bold;
     color: gray;
+}
+
+.experienceImage {
+    border-radius: 25px;
 }

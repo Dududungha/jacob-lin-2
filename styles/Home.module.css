@@ -19,7 +19,6 @@
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     justify-items: center;
-    column-gap: 2.5vw;
     row-gap: 2.5vw;
 }
 

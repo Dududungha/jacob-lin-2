@@ -4,7 +4,7 @@ import styles from '../styles/Sidebar.module.css';
 
 export default function Sidebar() {
     return (
-        <div className={styles.sidebar}>
+        <div className={styles.sidebarContainer}>
             <div className={styles.sidebarRoutes}>
                 <p className={styles.sidebarRoute}><a href="/#journey">Journey</a></p>
                 <p className={styles.sidebarRoute}><a href="/#projects">Projects</a></p>
