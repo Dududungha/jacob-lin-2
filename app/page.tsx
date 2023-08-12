@@ -4,9 +4,15 @@ import Sidebar from '../components/sidebar';
 import Intro from '../components/intro';
 import Experience from '../components/experience';
 import Project from '../components/project';
-import gmail from '../public/images/gmail.jpg'
-import github from '../public/images/github.jpg'
-import linkedin from '../public/images/linkedin.jpg'
+
+import gmail from '../public/images/gmail.jpg';
+import github from '../public/images/github.jpg';
+import linkedin from '../public/images/linkedin.jpg';
+import mangroves from '../public/images/mangroves.jpg';
+import sandiegozoo from '../public/images/sandiegozoo.jpg';
+import uwu from '../public/images/uwu.png';
+import ignis from '../public/images/ignis.jpg';
+
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -27,10 +33,9 @@ export default function Home() {
         </Experience>
       </div>
       <div id="projects" className={styles.projectsContainer}>
-          <Project imageSrc='/images/mangroves.jpg' link='https://github.com/UCSD-E4E/MMICT-frontend'/>
-          <Project imageSrc='/images/uwu-face.png' link='https://uwu-wegistew.netlify.app/'/>
-          <Project imageSrc='/images/ignis.jpg' link='https://devpost.com/software/ignis-1kn83b'/>
-          <Project imageSrc='/images/sandiegozoo.jpg'/>
+          <Project name='Mangrove Monitoring' imageSrc={mangroves} link='https://github.com/UCSD-E4E/MMICT-frontend'/>
+          <Project name='uwu-wegistew' imageSrc={uwu} link='https://uwu-wegistew.netlify.app/'/>
+          <Project name='ignis' imageSrc={ignis} link='https://devpost.com/software/ignis-1kn83b'/>
       </div>
       <div id="connect" className={styles.connectContainer}>
         <a href="mailto:jacobchengdilin@gmail.com"><Image className={styles.connectImg} src={gmail} alt="Gmail"/></a>

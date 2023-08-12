@@ -1,11 +1,19 @@
 .projectContainer {
-    position: relative;
-    height: 33vh;
-    width: 25vw;
-    grid-column: auto;
-    grid-row: auto;
+
 }
 
-.projectContainer img {
+.projectTitle {
+    position: relative;
+    margin: 0;
+    top: .21em;
+    left: 1em;
+    z-index: 1;
+}
+
+.projectImage {
+    width: 25vw;
+    height: 33vh;
     object-fit: contain;
+    border-radius: 25px;
+    box-shadow: 0 0 20px 5px #E2E2E2E2;
 }

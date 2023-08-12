@@ -13,7 +13,7 @@ export default function Experience({title, role, imageSrc, children}:PropsWithCh
         <div className={styles.experienceContainer}>
             <Image className={styles.experienceImage} src={imageSrc} height={200} width={200} alt=''/>
             <div className={styles.experienceText}>
-                <h3 className={styles.experienceTitle}>{title}</h3>
+                <h2 className={styles.experienceTitle}>{title}</h2>
                 <p className={styles.experienceRole}>{role}</p>
                 {children}
             </div>
