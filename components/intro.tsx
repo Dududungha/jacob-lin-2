@@ -3,9 +3,13 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import styles from '../styles/Intro.module.css';
+import main from '../public/images/main.jpg';
+import journey from '../public/images/journey.jpg';
+import projects from '../public/images/projects.jpg';
+import connect from '../public/images/connect.jpg';
 
 export default function Intro() {
-    const [coverImg, setCoverImg] = useState("/images/cat.jpg");
+    const [coverImg, setCoverImg] = useState(main);
 
     return (
         <div className={styles.introContainer}>
@@ -14,30 +18,30 @@ export default function Intro() {
                 <h1 className={styles.introName}>Jacob Lin</h1>
                 <h4 className={styles.introRoute}>
                     <a href="#journey" 
-                        onMouseOver={() => {setCoverImg("/images/cat2.jpg")}} 
-                        onMouseLeave={() => {setCoverImg("/images/cat.jpg")}}
+                        onMouseOver={() => {setCoverImg(journey)}} 
+                        onMouseLeave={() => {setCoverImg(main)}}
                     >
                         Journey
                     </a>
                 </h4>
                 <h4 className={styles.introRoute}>
                     <a href="#projects"
-                    onMouseOver={() => {setCoverImg("/images/cat3.jpg")}} 
-                    onMouseLeave={() => {setCoverImg("/images/cat.jpg")}}
+                    onMouseOver={() => {setCoverImg(projects)}} 
+                    onMouseLeave={() => {setCoverImg(main)}}
                     >
                         Projects
                     </a>
                 </h4>
                 <h4 className={styles.introRoute}>
                     <a href="#connect"
-                        onMouseOver={() => {setCoverImg("/images/cat4.jpg")}} 
-                        onMouseLeave={() => {setCoverImg("/images/cat.jpg")}}
+                        onMouseOver={() => {setCoverImg(connect)}}
+                        onMouseLeave={() => {setCoverImg(main)}}
                     >
                         Connect
                     </a>
                 </h4>
             </div>
-            <Image priority src={coverImg} width={500} height={500} alt=""/>
+            <Image priority className={styles.introImg} src={coverImg} alt=""/>
         </div>
     )
 }

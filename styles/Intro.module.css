@@ -21,8 +21,15 @@
     margin: 0 0 0rem 0;
 }
 
+.introImg {
+    width: 25vw;
+    height: auto;
+    border-radius: 15px;
+}
+
 .introRoute {
-    margin: 0.5rem 0;
+    padding: 0.5rem 0;
+    margin: 0;
 }
 
 .introRoute a {

@@ -9,9 +9,10 @@ import gmail from '../public/images/gmail.jpg';
 import github from '../public/images/github.jpg';
 import linkedin from '../public/images/linkedin.jpg';
 import mangroves from '../public/images/mangroves.jpg';
-import sandiegozoo from '../public/images/sandiegozoo.jpg';
 import uwu from '../public/images/uwu.png';
 import ignis from '../public/images/ignis.jpg';
+import maxentric from '../public/images/maxentric.png';
+import ucsdcse from '../public/images/ucsdcse.jpg';
 
 import styles from '../styles/Home.module.css';
 
@@ -21,12 +22,12 @@ export default function Home() {
       <Sidebar />
       <Intro />
       <div id="journey" className={styles.experiencesContainer}>
-        <Experience title="MaXentric Technologies" role="Software Engineer Intern" imageSrc="/images/cat.jpg">
+        <Experience title="MaXentric Technologies" role="Software Engineer Intern" imageSrc={maxentric}>
           <p>MaXentric was my first step into software engineering.</p>
           <p>It was exciting. I had to learn new technologies, networking and embedded devices, and I had absolutely no idea about them! I honestly amazed myself with how I was able to pick it up and even apply it to build a simulator to test link layer networking protocols for the new 5G millimeter wave technology. I was proud to have landed this internship and to have contributed and made an impact.</p>
           <p>However, I couldn't see myself continuing to work with networks and embedded devices, and here I am!</p>
         </Experience>
-        <Experience title="UCSD CSE Department" role="CSE Instructional Assistant" imageSrc="/images/cat.jpg">
+        <Experience title="UCSD CSE Department" role="CSE Instructional Assistant" imageSrc={ucsdcse}>
           <p>My very first job.</p>
           <p>I got paid a whopping $20.23/hr! I could not stop bragging to my friends about that. However I soon found that the fulfillment from helping and teaching my peers was worth much more than the pay. Seeing their eyes light up with understanding through the result of my help is a priceless feeling. Though it wasn't grand in scale, I felt that I was making an impact, a visible one, and I latched onto that desire.</p>
           <p>From this, I knew that I had the capacity to help even more people, and looked for opportunities to make a greater impact.</p>
