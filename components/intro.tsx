@@ -2,11 +2,13 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import styles from '../styles/Intro.module.css';
+
 import main from '../public/images/main.jpg';
 import journey from '../public/images/journey.jpg';
 import projects from '../public/images/projects.jpg';
 import connect from '../public/images/connect.jpg';
+
+import styles from '../styles/Intro.module.css';
 
 export default function Intro() {
     const [coverImg, setCoverImg] = useState(main);

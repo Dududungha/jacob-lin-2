@@ -47,3 +47,10 @@
 .sidebarContainer:hover > .sidebarArrow {
     transform: rotate(-180deg);
 }
+
+.sidebarResume {
+    position: absolute;
+    height: 100px;
+    width: auto;
+    bottom: 1%;
+}
