@@ -16,7 +16,7 @@ export default function Intro() {
     return (
         <div className={styles.introContainer}>
             <div className={styles.introRouting}>
-                <h3 className={styles.introHi}>Hi I'm</h3>
+                <h3 className={styles.introHi}>Hi I&apos;m</h3>
                 <h1 className={styles.introName}>Jacob Lin</h1>
                 <h4 className={styles.introRoute}>
                     <a href="#journey" 
