@@ -1,6 +1,10 @@
+'use client'
+
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import Sidebar from '../components/sidebar';
+import Sidebar2 from '../components/sidebar2';
 import Intro from '../components/intro';
 import Experience from '../components/experience';
 import Project from '../components/project';
@@ -17,9 +21,23 @@ import ucsdcse from '../public/images/ucsdcse.jpg';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
+  // const handleScroll = () => {
+  //   const position = window.scrollY / (document.body.offsetHeight - window.innerHeight);
+  //   console.log(position)
+  //   document.body.style.setProperty('--scroll', `${position}`);
+  // }
+
+  // useEffect(() => {
+  //   window.addEventListener('scroll', handleScroll, { passive: true });
+
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, [])
+
   return (
     <main className={styles.container}>
-      <Sidebar />
+      <Sidebar2 />
       <Intro />
       <div id="journey" className={styles.experiencesContainer}>
         <Experience title="MaXentric Technologies" role="Software Engineer Intern" imageSrc={maxentric}>

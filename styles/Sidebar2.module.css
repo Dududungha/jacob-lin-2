@@ -1,0 +1,90 @@
+.sidebarContainer {
+    background: black;
+    color: white;
+    position: fixed;
+    height: 100vh;
+    width: 15vw;
+    visibility: hidden;
+}
+
+.sidebarContainer.open {
+    visibility: visible;
+    animation-name: slideIn;
+    animation-duration: 0.5s;
+}
+
+.sidebarContainer.close {
+    transform: translateX(-15vw);
+    visibility: visible;
+    animation-name: slideOut;
+    animation-duration: 0.5s;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-15vw);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-15vw);
+    }
+}
+
+.sidebarHam {
+    position: fixed;
+    width: 50px;
+    height: auto;
+    top: 25px;
+    left: 25px
+}
+
+.sidebarHam.sidebarHamOpen {
+    transform: translateX(15vw);
+    animation-name: slideHam;
+    animation-duration: 0.5s;
+}
+
+@keyframes slideHam {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(15vw);
+    }
+}
+
+.sidebarRoutes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0.5rem;
+}
+
+.sidebarRoute {
+    margin: 0.5rem 0;
+    font-size: 2.5vw;
+}
+
+.sidebarRoute a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.sidebarRoute a:hover {
+    text-decoration: underline;
+}
+
+.sidebarResume {
+    position: absolute;
+    height: 100px;
+    width: auto;
+    bottom: 1%;
+}

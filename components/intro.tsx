@@ -28,8 +28,8 @@ export default function Intro() {
                 </h4>
                 <h4 className={styles.introRoute}>
                     <a href="#projects"
-                    onMouseOver={() => {setCoverImg(projects)}} 
-                    onMouseLeave={() => {setCoverImg(main)}}
+                        onMouseOver={() => {setCoverImg(projects)}} 
+                        onMouseLeave={() => {setCoverImg(main)}}
                     >
                         Projects
                     </a>

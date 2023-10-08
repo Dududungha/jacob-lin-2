@@ -1,3 +1,13 @@
+/* .container {
+    display: flex;
+    flex-direction: column;
+    background-color: #FD79B4;
+    animation-name: background;
+    animation-duration: 1s;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+} */
+
 .container {
     display: flex;
     flex-direction: column;
@@ -40,3 +50,10 @@
     height: 225px;
     width: 225px;
 }
+
+/* @keyframes background {
+    0% {background-color: #FCB500;}
+    33% {background-color: #B556FD;}
+    66% {background-color: #40DEFD;}
+    100% {background-color: #FD79B4;}
+} */
